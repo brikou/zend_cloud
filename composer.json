@@ -1,0 +1,30 @@
+{
+    "name": "brikou/zend_cloud",
+    "type": "library",
+    "description": "",
+    "description": "Zend Framework Cloud Library",
+    "keywords": [
+        "zend framework",
+        "cloud"
+    ],
+    "homepage": "https://github.com/brikou/zend_cloud",
+    "license": "Zend Framework",
+    "authors": [
+        {
+            "name": "Zend Technologies USA, Inc.",
+            "homepage": "http://framework.zend.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "brikou/zend_config": "*",
+        "brikou/zend_http": "*",
+        "brikou/zend_queue": "*",
+        "brikou/zend_servic": "*",
+        "brikou/zend_service": "*",
+        "brikou/zend_stdlib": "*"
+    },
+    "autoload": {
+        "psr-0": { "Zend\\Cloud": "" }
+    }
+}
